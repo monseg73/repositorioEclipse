@@ -10,7 +10,7 @@ public class Suma {
 	}
 
 	public static void suma() {
-		int a,b, resultado;
+		int a,b,c, resultado;
 		String respuesta="s";
 		try {
 				
@@ -20,8 +20,10 @@ public class Suma {
 				a=teclado.nextInt();
 				System.out.println("Introduce otro número positivo:");
 				b=teclado.nextInt();
-				if ((a > 0) && (b >0)) {
-					resultado= a+b;
+				System.out.println("Introduce otro número positivo:");
+				c=teclado.nextInt();
+				if ((a > 0) && (b >0) && (c>0)) {
+					resultado= a+b+c;
 					System.out.println("El resultado es " + resultado);
 					
 				}
@@ -29,6 +31,7 @@ public class Suma {
 					System.out.println("No son positivos");
 				}
 				System.out.println("¿Quieres seguir sumando? s/n");
+				System.out.println("Si no quieres nada");
 				respuesta=teclado.next();
 			}
 			teclado.close();
