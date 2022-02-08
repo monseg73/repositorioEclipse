@@ -20,7 +20,7 @@ public class Suma {
 				a=teclado.nextInt();
 				System.out.println("Introduce otro número positivo:");
 				b=teclado.nextInt();
-				
+				// esto es una pruea
 				if ((a > 0) && (b >0) ) {
 					resultado= a+b;
 					System.out.println("El resultado es " + resultado);
