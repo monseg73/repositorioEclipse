@@ -20,10 +20,9 @@ public class Suma {
 				a=teclado.nextInt();
 				System.out.println("Introduce otro número positivo:");
 				b=teclado.nextInt();
-				System.out.println("Introduce otro número positivo:");
-				c=teclado.nextInt();
-				if ((a > 0) && (b >0) && (c>0)) {
-					resultado= a+b+c;
+				
+				if ((a > 0) && (b >0) ) {
+					resultado= a+b;
 					System.out.println("El resultado es " + resultado);
 					
 				}
