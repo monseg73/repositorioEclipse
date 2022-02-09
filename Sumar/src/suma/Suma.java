@@ -19,6 +19,7 @@ public class Suma {
 				System.out.println("Introduce un número positivo:");
 				a=teclado.nextInt();
 				System.out.println("Introduce otro número positivo:");
+				System.out.println("Introduce otro número positivo:");
 				b=teclado.nextInt();
 				if ((a > 0) && (b >0)) {
 					resultado= a+b;
